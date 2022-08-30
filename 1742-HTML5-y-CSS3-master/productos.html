@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title> Productos-Barberia alura  </title>
+        
+        <link rel="stylesheet" href="reset.css"> <!--link a la oja de css que resetea las configuraciones por defecto-->
+        <link rel="stylesheet" href="style.css"> <!--conecta la hoja de estilos -->
+    
+    </head>
+
+   
+    <body>
+
+        <header><!--encabezado de pagina-->
+
+            <div class="caja"> <!-- se crea una division y se le agrega una clase para poder mover todo el menu (logo,lista) como si fuera un solo elemento-->
+
+                <h1><img src="imagenes/logo.png"></h1>
+            
+                <nav><!--etiqueta para crear barra de navegacion -->
+    
+                    <ul class="navegacion">
+                        <li><a href="index.html">Home</a></li> <!--etiqueta <a> "anchor" se usa para anclar link de otra pagina --> 
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+        
+                    </ul>
+    
+                </nav>
+
+            </div>
+           
+
+            
+        </header>
+        
+        <main> <!-- "main" representa el contenido principal del <body>, todo en la pagina se divide en cuadrados que se llaman elementos-->
+            <ul class="productos"> <!--en html cada etiqueta es un cuadrado-->
+                <li>
+                  <h2>cabello</h2>  
+                  <img src="imagenes/cabello.jpg">
+                  <p class="producto-descripcion">con tijera o maquina, a gusto del cliente </p>
+                  <p class="producto-precio">$10.00</p> 
+                </li>   <!--se crea un clase para descripcion y otra para precio asi se le puede dar caracteristicas diferentes a cada uno-->
+                <li>
+                  <h2>barba</h2>  
+                  <img src="imagenes/barba.jpg">
+                  <p class="producto-descripcion">corte y diseño profesional de barba</p>
+                  <p class="producto-precio">$8.00</p> 
+                </li>
+                <li>
+                  <h2>cabello+barba</h2>  
+                  <img src="imagenes/cabello+barba.jpg">
+                  <p class="producto-descripcion">paquete completo cabello y barba</p>
+                  <p class="producto-precio">$15.00</p> 
+                </li>
+            </ul>                     
+        </main>
+    
+        <footer> <!--pie de pagina-->
+            <img src="imagenes/logo-blanco.png">
+            <p class="Copyright"><!--parrafo-->
+             &copy Copyright barberia alura-2020               
+            </p>
+
+
+        </footer>
+
+    </body>
+
+
+
+</html>
