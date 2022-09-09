@@ -1,0 +1,157 @@
+
+header{
+    width: 100%;
+    height: 70px;
+    /* background-color: brown; */
+    
+}
+
+.logo{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    top:40px;
+    left:-30px;
+    
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, #fbffff 0, #ecfffd 7.14%, #dafffa 14.29%, #c6fff7 21.43%, #aefff5 28.57%, #92fff3 35.71%, #70fcf2 42.86%, #3cf2f2 50%, #00e7f3 57.14%, #00ddf6 64.29%, #00d4fa 71.43%, #00cbff 78.57%, #00c2ff 85.71%, #00baff 92.86%, #00b3ff 100%);
+    
+}
+
+section{
+    width:40%;
+    height: 100%;
+    display: inline-block;
+    /* background-color: green; */
+
+}
+
+.ingreso{
+    width: 65%;
+}
+
+.area_ingreso{/*elemento campo de texto de ingreso*/
+    /*height: 288px;
+    width: 580px;
+    left: 240px;
+    top: 168px;*/
+    width: 75%;
+    height: 60%;
+    border-radius: undefinedpx;
+    margin-top: 68px;
+    margin-left: 93px;    
+    resize: none;
+    font-size: 32px;
+   
+}
+
+#aclaracion{
+    margin-left: 93px; 
+}
+
+.botones{
+    
+    margin-top: 5%;
+    text-align: center;
+}
+
+.boton_encriptar{
+    width: 37%;
+    height: 37px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #0A3871; 
+    border-radius: 24px;
+    color: white;
+}
+
+.boton_desencriptar{
+    width: 37%;
+    height: 37px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #D8DFE8;
+    border-radius: 24px; 
+    color: #0A3871;
+}
+
+.egreso{
+    width:30% ;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.imagen_egreso{
+    width: 100%;
+    height: 300px;
+
+}
+
+.titulo_egreso{
+    
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold ;
+    font-size: 22px;
+    
+}
+
+p{
+    margin-top: 50px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.elemento_desencriptado{
+    width: 100%;
+    height: 90%;
+
+}
+
+#elemento_copiar{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.btn_copiar{
+    width: 70%;
+    height: 37px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+   
+    
+}
+
+footer{
+    width: 100%;
+    height: 83px;
+    /* background-color:blue; */
+    text-align: center;
+    background-color: #00b3ff ;
+    
+}
+
+.ocultar{
+    display: none;
+}

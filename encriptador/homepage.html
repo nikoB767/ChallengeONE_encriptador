@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css" >
+    <link rel="stylesheet" href="homepage_styles.css" >
+</head>
+<body>
+    <header >
+        <h1 class="logo"><img src="img/Vector.png" alt="logo"></h1>
+    </header>
+
+    <main>
+        <section class="ingreso">
+            
+            <textarea class="area_ingreso" placeholder="ingrese texto"></textarea>
+            <h4 id="aclaracion"> ⚠ Solo letras minusculas y sin acento</h4>
+            <div class="botones">                
+                <input type="button" class="boton_encriptar"  value="Encriptar">
+                <input type="button" class="boton_desencriptar" value="Desencriptar">
+            </div>
+
+        </section>
+        
+        <section class="egreso">
+            <div class="ocultar" > 
+                <img class="imagen_egreso" src="img/Muñeco.png" alt="">
+            </div>            
+            
+            <div class="ocultar"> 
+                
+                <h3 class="titulo_egreso">Ningun mensaje fue encontrado</h3>
+                <p>ingrese texto para poder decodificar</p> 
+            
+            </div>     
+        
+            <div class="elemento_desencriptado">
+                <h3 class="titulo_egreso">Mensaje desencriptado:</h3>
+                <p>asuhasfhasoiasfassoeijhesgoeijfesiofjosifjsdoifj</p>    
+            </div>
+            
+            <div id="elemento_copiar">
+                <input type="button" class="btn_copiar" value="Copiar">
+            </div>
+        
+        </section>
+
+    </main>
+
+    <footer>
+        <h3> ©Alura todos los derechos reservados</h3>
+
+    </footer>
+
+    <script src="homepage_script.js"> </script>
+</body>
+</html>
