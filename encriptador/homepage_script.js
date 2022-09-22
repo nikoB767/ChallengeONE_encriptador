@@ -4,6 +4,7 @@ var personaje = document.querySelector(".imagen_egreso");
 var tituloEgreso = document.querySelector(".titulo_egreso")
 var parrafo = document.querySelector(".parrafo")
 var resultado = document.querySelector(".resultadoDesencriptado")
+var botonCopiar = document.querySelector(".btn_copiar");
 
 //imprime el resultado ya encriptado//
 function encriptar() {
@@ -96,10 +97,21 @@ function desencriptarTexto(mensaje){
     
     return final;
 
-} 
+}
+
+function copiar() {
+
+    var content = document.getElementById('areaResultado');
+    
+    content.select();
+    document.execCommand('copy');
+
+    alert("Copied!");
+}
 
 
 
 
 botonEncriptar.onclick = encriptar;
 botonDesencriptar.onclick = desencriptar;
+botonCopiar.onclick = copiar;
