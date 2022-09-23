@@ -22,8 +22,10 @@ function desencriptar() {
 }
 
 function textoingresado() {
+    
     var textoIngreso = document.querySelector (".area_ingreso");
     return textoIngreso.value;
+
 }
 
 //funcion para ocultar imagen en elemento egreso//
@@ -106,7 +108,10 @@ function copiar() {
     content.select();
     document.execCommand('copy');
 
-    alert("Copied!");
+    alert("Copiado!");
+
+
+
 }
 
 

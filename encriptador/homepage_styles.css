@@ -49,7 +49,7 @@ section{
     margin-left: 93px;    
     resize: none;
     font-size: 32px;
-   
+    
 }
 
 #aclaracion{
@@ -74,6 +74,11 @@ section{
     background-color: #0A3871; 
     border-radius: 24px;
     color: white;
+    cursor: pointer;
+}
+
+.boton_encriptar:active{
+    transform: scale(0.98);
 }
 
 .boton_desencriptar{
@@ -88,6 +93,11 @@ section{
     background-color: #D8DFE8;
     border-radius: 24px; 
     color: #0A3871;
+    cursor: pointer;
+}
+
+.boton_desencriptar:active{
+    transform: scale(0.98);
 }
 
 /*inicio elemento de area que mostrara resultados */
@@ -127,15 +137,23 @@ section{
 
 
 .elemento_desencriptado{
-    width: 100%;
+    width: 99%;
     height: 80%;
-   
+    
+}
+
+#areaResultado{
+    width: 100%;
+    height: 85%;
+    font-size: 22px;
+    
+    
 }
 
 #elemento_copiar{
     width: 100%;
     height: 10%;
-    text-align: center;
+    text-align: center;    
 }
 
 .btn_copiar{
@@ -143,8 +161,12 @@ section{
     height: 37px;
     border: 1px solid #0A3871;
     border-radius: 24px;
-   
+    cursor: pointer;
     
+}
+
+.btn_copiar:active{
+    transform: scale(0.98);
 }
 
 footer{
