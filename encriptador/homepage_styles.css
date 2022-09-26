@@ -146,7 +146,7 @@ section{
     width: 100%;
     height: 85%;
     font-size: 22px;
-    
+    border: none
     
 }
 
@@ -180,4 +180,11 @@ footer{
 
 .ocultar{
     display: none;
+}
+
+#copyright{
+    
+    width: 100%;
+    height: 50%;
+    vertical-align: bottom
 }

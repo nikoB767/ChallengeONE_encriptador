@@ -108,7 +108,7 @@ function copiar() {
     content.select();
     document.execCommand('copy');
 
-    alert("Copiado!");
+    //alert("Copiado!");//
 
 
 
